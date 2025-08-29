@@ -1,0 +1,15 @@
+.cuadro{
+  width: 100px;
+  height: 100px;
+  background: #e53925;
+  position: relative;
+  animation: mover 2s linear infinite alternate;
+}
+@keyframes mover{
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: translate(300px);
+  }
+}
